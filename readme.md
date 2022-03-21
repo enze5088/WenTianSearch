@@ -1,5 +1,7 @@
 # “阿里灵杰”问天引擎电商搜索算法赛 SimCSE版本BaseLine
 使用SimCSE有监督版本的问天搜索算法赛BaseLine，无困难负样本。
+
+比赛地址：https://tianchi.aliyun.com/competition/entrance/531946/introduction
 ## 文件构成
 1.data_process.py --- 数据预处理(因为给出的数据列数发生过改变，这里可能要注意一下编号问题 需要对应数据修改一下)
 
