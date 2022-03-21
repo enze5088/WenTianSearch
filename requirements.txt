@@ -1,0 +1,11 @@
+apex==0.9.10dev
+datasets==2.0.0
+deepspeed==0.6.0
+fairscale==0.4.6
+filelock==3.6.0
+numpy==1.22.3
+packaging==21.3
+scikit_learn==1.0.2
+torch==1.11.0
+tqdm==4.61.2
+transformers==4.17.0

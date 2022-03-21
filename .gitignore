@@ -5,7 +5,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.csv
-*.txt
+data/
 *.tsv
 # C extensions
 *.so
