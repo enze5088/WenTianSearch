@@ -1,9 +1,7 @@
 # “阿里灵杰”问天引擎电商搜索算法赛 SimCSE版本BaseLine
 使用SimCSE有监督版本的问天搜索算法赛BaseLine，无困难负样本。
 
-SimCSE版本BaseLine
-
-使用SimCSE有监督版本的问天搜索算法赛BaseLine，无困难负样本。
+SimCSE版本BaseLine Python 3.8.12
 
 初始提交 0.244
 
