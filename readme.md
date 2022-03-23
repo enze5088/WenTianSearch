@@ -21,7 +21,7 @@ run_sup_example.sh 训练脚本
 
 ./trainers.py 训练主程序
 
-./data/* 训练数据
+./data/* 训练数据(训练数据放置在这个文件夹下)
 
 ## 执行顺序
 

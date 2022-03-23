@@ -9,7 +9,7 @@ data/
 *.tsv
 # C extensions
 *.so
-
+.idea/
 # tests and logs
 tests/fixtures/cached_*_text.txt
 logs/
@@ -166,3 +166,6 @@ tags
 
 # DS_Store (MacOS)
 .DS_Store
+.idea/show_example.iml
+*.iml
+*.xml

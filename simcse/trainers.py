@@ -94,13 +94,6 @@ from transformers.trainer import unwrap_model
 from transformers.optimization import Adafactor, AdamW, get_scheduler
 import copy
 
-# Set path to SentEval
-PATH_TO_SENTEVAL = './SentEval'
-PATH_TO_DATA = './SentEval/data'
-
-# Import SentEval
-sys.path.insert(0, PATH_TO_SENTEVAL)
-import senteval
 import numpy as np
 from datetime import datetime
 from filelock import FileLock
