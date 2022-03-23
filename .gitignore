@@ -9,7 +9,7 @@ data/
 *.tsv
 # C extensions
 *.so
-.idea/
+.idea/*
 # tests and logs
 tests/fixtures/cached_*_text.txt
 logs/
@@ -169,3 +169,5 @@ tags
 .idea/show_example.iml
 *.iml
 *.xml
+.idea/misc.xml
+.idea/show_example.iml
