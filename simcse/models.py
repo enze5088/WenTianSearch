@@ -97,8 +97,7 @@ def cl_init(cls, config, pooler_type, temp, pooler_num):
     """
     cls.pooler_type = pooler_type
     cls.pooler = Pooler('avg')
-    if pooler_type == "cls":
-        cls.mlp = MLPLayer(config, pooler_num=pooler_num)
+    cls.mlp = MLPLayer(config, pooler_num=pooler_num)
     cls.sim = Similarity(temp=temp)
     cls.init_weights()
 
@@ -166,8 +165,7 @@ def cl_forward(cls,
 
     # If using "cls", we add an extra MLP layer
     # (same as BERT's original implementation) over the representation.
-    if cls.pooler_type == "cls":
-        pooler_output = cls.mlp(pooler_output)
+    pooler_output = cls.mlp(pooler_output)
 
     # Separate representation
     z1, z2 = pooler_output[:, 0], pooler_output[:, 1]
